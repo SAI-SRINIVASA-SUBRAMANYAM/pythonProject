@@ -1,0 +1,26 @@
+.flex-display {
+height:400px;
+width:500px;
+display: flex;
+flex: 0 1;
+
+}
+
+.flex-display > img {
+display: flex;
+flex: 0 1;
+border: 1px solid;
+}
+img:hover {
+box-shadow: 5px 5px #E6C39D;
+-webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+img:hover::after {
+box-shadow: 5px 5px #E6C39D;
+opacity: 1;
+-webkit-transition: all 0.9s cubic-bezier(0.165, 0.84, 0.44, 1);
+transition: all 0.9s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
